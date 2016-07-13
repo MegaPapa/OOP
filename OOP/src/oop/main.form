@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="java.awt.ScrollPane" name="scrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.ScrollPaneSupportLayout"/>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="fatness" alignment="0" max="32767" attributes="0"/>
+                          <Component id="material" alignment="0" max="32767" attributes="0"/>
+                          <Component id="DSerializeButton" alignment="0" pref="96" max="32767" attributes="0"/>
+                          <Component id="SerializeButton" alignment="0" max="32767" attributes="0"/>
+                          <Component id="addButton" alignment="0" max="32767" attributes="0"/>
+                          <Component id="factory" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="list" min="-2" pref="223" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelEvoparatorType" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="tar" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Component id="nicotine" min="-2" pref="96" max="-2" attributes="0"/>
+                                          <Component id="labelNicotine" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="labelTar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="evoparatorType" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="48" pref="48" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="filter" min="-2" pref="88" max="-2" attributes="0"/>
+                                                  <Component id="arom" min="-2" pref="88" max="-2" attributes="0"/>
+                                                  <Component id="labelArom" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelFilter" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="labelIndex" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="packerComboBox" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="index" min="-2" pref="30" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                              <Component id="STypeCombotext" min="-2" pref="124" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelFatness" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelMaterial" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelFactory" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="440" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ObjCombotext" min="-2" pref="125" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="deleteButton" min="-2" pref="88" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="redctButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ObjCombotext" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="addButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="SerializeButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="DSerializeButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="list" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelFactory" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelNicotine" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="labelFilter" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="factory" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="filter" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nicotine" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="packerComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelMaterial" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelTar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelArom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="material" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="arom" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelFatness" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelEvoparatorType" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelIndex" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fatness" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="evoparatorType" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="index" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="STypeCombotext" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="deleteButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="redctButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="19" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="SerializeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serialize"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SerializeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ObjCombotext">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Pipe"/>
+            <StringItem index="1" value="Cigar"/>
+            <StringItem index="2" value="Cigarette"/>
+            <StringItem index="3" value="e.Cigarette"/>
+            <StringItem index="4" value="tobacco Product"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="ObjCombotextItemStateChanged"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ObjCombotextActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="STypeCombotext">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Text"/>
+            <StringItem index="1" value="Binary"/>
+            <StringItem index="2" value="XML"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="DSerializeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Deserialize"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DSerializeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="addButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.List" name="list">
+    </Component>
+    <Component class="javax.swing.JTextField" name="factory">
+    </Component>
+    <Component class="javax.swing.JTextField" name="material">
+    </Component>
+    <Component class="javax.swing.JTextField" name="nicotine">
+    </Component>
+    <Component class="javax.swing.JTextField" name="filter">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tar">
+    </Component>
+    <Component class="javax.swing.JTextField" name="arom">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelFactory">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="factory:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelMaterial">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="material:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNicotine">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nicotine"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelTar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="tar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelFilter">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="filter:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelArom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="arom:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fatness">
+    </Component>
+    <Component class="javax.swing.JTextField" name="evoparatorType">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelFatness">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="fatness:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelEvoparatorType">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="evoparater:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DELETE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="index">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelIndex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="index:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="redctButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RED"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="redctButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="packerComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="GZip"/>
+            <StringItem index="1" value="Zip"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
